@@ -1,0 +1,8 @@
+object Lesson1 {
+
+	def main(args: Array[String]) {
+	  println("Roll Tide") 
+	}
+                                                  //> Roll Tide
+
+}

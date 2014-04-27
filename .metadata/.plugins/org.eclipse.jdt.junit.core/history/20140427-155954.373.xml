@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="ListsSuite" project="example" tests="4" started="4" failures="0" errors="1" ignored="0">
+  <testsuite name="example.ListsSuite" time="0.003">
+    <testcase name="intNotZero throws an exception if its argument is 0" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="max with empty list throws exception" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="sum of a few numbers" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="max of a few numbers" classname="example.ListsSuite" time="0.003">
+      <error>java.util.NoSuchElementException
+	at example.Lists$.max(Lists.scala:45)
+	at example.Lists$.max(Lists.scala:47)
+	at example.Lists$.max(Lists.scala:47)
+	at example.Lists$.max(Lists.scala:47)
+	at example.ListsSuite$$anonfun$4.apply$mcV$sp(ListsSuite.scala:99)
+	at example.ListsSuite$$anonfun$4.apply(ListsSuite.scala:99)
+	at example.ListsSuite$$anonfun$4.apply(ListsSuite.scala:99)
+	at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1974)
+	at example.ListsSuite.withFixture(ListsSuite.scala:27)
+	at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:198)
+	at org.scalatest.FunSuite$class.runTest(FunSuite.scala:1271)
+	at example.ListsSuite.runTest(ListsSuite.scala:27)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:260)
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:249)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:249)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:326)
+	at org.scalatest.FunSuite$class.runTests(FunSuite.scala:1304)
+	at example.ListsSuite.runTests(ListsSuite.scala:27)
+	at org.scalatest.Suite$class.run(Suite.scala:2303)
+	at example.ListsSuite.org$scalatest$FunSuite$$super$run(ListsSuite.scala:27)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:362)
+	at org.scalatest.FunSuite$class.run(FunSuite.scala:1310)
+	at example.ListsSuite.run(ListsSuite.scala:27)
+	at org.scalatest.junit.JUnitRunner.run(JUnitRunner.scala:94)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

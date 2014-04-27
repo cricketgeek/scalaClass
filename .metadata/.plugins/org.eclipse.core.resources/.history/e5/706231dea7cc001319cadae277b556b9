@@ -1,0 +1,7 @@
+object Lesson1 {
+
+	  println("Roll Tide")
+	                                          //> main: (args: Array[String])Unit
+	
+
+}

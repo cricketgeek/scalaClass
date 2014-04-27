@@ -1,0 +1,11 @@
+object Lesson1 {
+
+	//  println("Roll Tide")
+	
+	def sum(f: Int => Int): (Int, Int) => Int = {
+		def sumf(a: Int, b: Int): Int = { println("yes") }
+		sumf
+	}
+
+	
+}

@@ -1,0 +1,5 @@
+object Lesson1 {
+
+  println("Roll Tide")                            //> Welcome to the Scala worksheet
+
+}
